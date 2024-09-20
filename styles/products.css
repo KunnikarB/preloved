@@ -167,24 +167,24 @@ form i {
 @media only screen and (max-width: 567px) {
   .product-center {
     display: inline-block;
-    max-width: 100%;
+    width: 100%;
     padding: 0 1rem;
     margin: 0 auto;
   }
 
   .product-item {
-    width: 80%;
-    margin: 0 auto;
-    margin-bottom: 3rem;
+    width: 27rem;
+    margin: 3rem auto;
   }
 
   .product-thumb img {
-    height: 90rem;
+    height: 35rem;
+    margin: 0 auto;
   }
 
-  .product-item {
+  /* .product-item {
     margin-right: 2rem;
-  }
+  } */
 
   .product-item .icons li {
     padding: 0.5rem 1rem;
