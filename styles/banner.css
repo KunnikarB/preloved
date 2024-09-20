@@ -65,9 +65,9 @@
   }
 }
 
-@media only screen and (max-width: 996px) {
+@media only screen and (max-width: 1024px) {
   .banner {
-    padding: 8rem 2rem;
+    padding: 8rem 4rem;
     margin: 2rem;
   }
 
@@ -91,11 +91,13 @@
     display: grid;
     grid-template-columns: 1fr;
     height: 80vh;
+  
   }
 
+  
   .banner .left {
     width: 100%;
-    margin-bottom: 3rem;
+    margin-left: 8rem;
   }
 
   .banner .right {
@@ -112,29 +114,59 @@
 
 @media only screen and (max-width: 567px) {
   .banner {
-    padding: 8rem 5rem;
-    
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 80vh;
+  
   }
 
-  .banner .trend,
-  .banner p {
-    font-size: 1.3rem;
-    margin-bottom: 1rem;
+  
+  .banner .left {
+    width: 100%;
+    margin-left: 8rem;
   }
 
-  .banner h1 {
-    font-size: 3rem;
-    margin-bottom: 1rem;
-  }
-
-  .banner .btn {
-    padding: 0.8rem 1.7rem;
-    font-size: 1.4rem;
-    margin-bottom: 12rem;
+  .banner .right {
+    flex: 0 0 50%;
   }
 
   .banner .right img {
-    width: 25rem;
-    margin-top: 8%;
+    right: 0;
+    width: 50rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  }
+
+
+
+
+@media  only screen and (max-width: 320px) {
+  .banner {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 80vh;
+  
+  }
+
+  
+  .banner .left {
+    width: 100%;
+    margin-left: 1rem;
+  }
+
+  .banner .left h1 {
+    font-size: 2.5rem;
+  }
+
+  .banner .right {
+    flex: 0 0 50%;
+  }
+
+  .banner .right img {
+    right: 0;
+    width: 50rem;
+    left: 50%;
+    transform: translateX(-50%);
   }
 }
