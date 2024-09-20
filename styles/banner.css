@@ -22,6 +22,7 @@
   right: 15%;
   width: 100px;
   min-width: 500px;
+  z-index: 1;
 }
 
 .banner .trend,
@@ -67,6 +68,7 @@
 @media only screen and (max-width: 996px) {
   .banner {
     padding: 8rem 2rem;
+    margin: 2rem;
   }
 
   .banner .trend,
@@ -79,7 +81,7 @@
   }
 
   .banner .right img {
-    right: -6%;
+    right: 1%;
     width: 50rem;
   }
 }
@@ -111,6 +113,7 @@
 @media only screen and (max-width: 567px) {
   .banner {
     padding: 8rem 5rem;
+    
   }
 
   .banner .trend,
@@ -131,7 +134,7 @@
   }
 
   .banner .right img {
-    width: 45rem;
-    margin-top: 10%;
+    width: 25rem;
+    margin-top: 8%;
   }
 }
