@@ -191,6 +191,7 @@ Navigation
     display: block;
     color: var(--bg-color);
     font-size: 3rem;
+    margin-right: 1rem;
   }
 
   .icons {
@@ -199,7 +200,47 @@ Navigation
 
   .nav-list .icons {
     display: flex;
+  } 
+  
+  .navigation img {
+    width: 70px;
+    border-radius: 50%;
+    margin: 4rem 1rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .nav-center .nav-link {
+    display: none;
+  }
+  .navigation img {
+    width: 60px;
+    border-radius: 50%;
+   
+  }
+
+  .nav-center .hamburger {
+    display: block;
+    color: var(--bg-color);
+    font-size: 3rem;
+    margin-right: 1rem;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+  .navigation img {
+    width: 50px;
+    border-radius: 50%;
+    
   }  
+
+  .nav-center .hamburger {
+    display: block;
+    color: var(--bg-color);
+    font-size: 3rem;
+    margin-right: 0.2rem;
+  }
 }
 
 /* Footer */
