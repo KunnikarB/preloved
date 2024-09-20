@@ -1,0 +1,137 @@
+/* Banner */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.banner {
+  position: relative;
+  align-items: center;
+  padding: 14rem 20%;
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 10%;
+}
+
+.banner .right img {
+  position: absolute;
+  bottom: 0;
+  right: 15%;
+  width: 100px;
+  min-width: 500px;
+}
+
+.banner .trend,
+.banner p {
+  display: block;
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 1.5rem;
+}
+
+.banner h1 {
+  font-size: 4rem;
+  color: var(--bg-color);
+  margin-bottom: 1.5rem;
+}
+
+.banner .btn {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+  background-color: var(--bg-color);
+  color: var(--white);
+  border-radius: 15px;
+}
+
+.banner .btn:hover {
+  background-color: var(--white);
+  color: var(--bg-color);
+}
+
+@media only screen and (max-width: 1500px) {
+  .banner {
+    padding: 14rem;
+  }
+
+  .banner .right img {
+    right: 3rem;
+    width: 70rem;
+  }
+}
+
+@media only screen and (max-width: 996px) {
+  .banner {
+    padding: 8rem 2rem;
+  }
+
+  .banner .trend,
+  .banner p {
+    font-size: 1.5rem;
+  }
+
+  .banner h1 {
+    font-size: 4rem;
+  }
+
+  .banner .right img {
+    right: -6%;
+    width: 50rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .banner {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 80vh;
+  }
+
+  .banner .left {
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+
+  .banner .right {
+    flex: 0 0 50%;
+  }
+
+  .banner .right img {
+    right: 0;
+    width: 50rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@media only screen and (max-width: 567px) {
+  .banner {
+    padding: 8rem 5rem;
+  }
+
+  .banner .trend,
+  .banner p {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  }
+
+  .banner h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .banner .btn {
+    padding: 0.8rem 1.7rem;
+    font-size: 1.4rem;
+    margin-bottom: 12rem;
+  }
+
+  .banner .right img {
+    width: 45rem;
+    margin-top: 10%;
+  }
+}
