@@ -126,6 +126,10 @@
     margin-left: 8rem;
   }
 
+  .banner .left h1 {
+    font-size: 2.5rem;
+  }
+
   .banner .right {
     flex: 0 0 50%;
   }
@@ -156,7 +160,7 @@
   }
 
   .banner .left h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
   .banner .right {
