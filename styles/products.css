@@ -75,6 +75,16 @@ form i {
   cursor: pointer;
 }
 
+.product-quantity {
+  margin: 10px;
+}
+
+.product-quantity label {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--bg-color);
+}
+
 .product-item .icons {
   position: absolute;
   left: 50%;
